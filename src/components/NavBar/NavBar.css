@@ -1,0 +1,25 @@
+.navbar {
+    height: auto;
+    background-color: #1a1a1c; }
+
+.navbar ul li a {
+        padding: 7px 13px;
+        color: #ffc800;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase; }
+
+.navbar ul li a:hover {
+            color: orange;
+            border: 2px solid orange; }
+.navbar ul li a:active {
+          color: #1fa38b; }
+
+.navbar ul li {
+            list-style: none; }
+  
+.collapse {
+    justify-content: center;
+    border-radius: 10px;
+    z-index: 10; }
