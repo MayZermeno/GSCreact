@@ -9,7 +9,8 @@ const Counter = () => {
     }
     const restar = () =>{
 
-        setNumber(number - 1);
+        if (number>0){ setNumber(number - 1);}
+       
     }
 
 
