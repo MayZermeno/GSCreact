@@ -1,7 +1,7 @@
 [{
     "id": 1,
     "categoria": "Fritos y empanizados",
-    "imagen": "../Img/frenchfries.png",
+    "imagen": "/Img/frenchfries.png",
     "titulo": "Papas a la francesa",
     "descripcion": "Corte recto y ondulado.",
     "cantidad": "",

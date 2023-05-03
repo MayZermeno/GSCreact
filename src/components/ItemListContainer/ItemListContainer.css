@@ -1,5 +1,5 @@
 h2{
-    padding-top: 20px;
+    padding: 30px;
     color: orange;
 }
 h4{
@@ -8,4 +8,11 @@ h4{
 
 .darktext{
     color: rgb(18, 18, 18);
+}
+
+.card{
+    min-height:650px;
+}
+.img-fluid{
+   height: 200px;
 }
