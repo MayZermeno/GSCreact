@@ -1,4 +1,5 @@
 import CartWidget from "../CartWidget/CartWidget";
+import React from "react";
 import "./NavBar.css";
 import logo from "../NavBar/assets/logo.png";
 

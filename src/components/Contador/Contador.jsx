@@ -1,4 +1,5 @@
 import { useState } from "react";
+import React from "react";
 import './contador.css';
 
 const Counter = ({stock, initial, onAdd}) => {
