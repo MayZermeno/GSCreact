@@ -2,7 +2,7 @@ import Item from "./Item";
 import React from "react";
 
 
-const ItemList = ({ productos }) => {
+const ItemDetailContainer = ({ productos }) => {
     return (
         <div className="container">
                             <div className="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4  g-3">
@@ -26,4 +26,4 @@ const ItemList = ({ productos }) => {
     )
 }
 
-export default ItemList;
+export default ItemDetailContainer;

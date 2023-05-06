@@ -1,0 +1,47 @@
+
+.contenedor-footer {
+    background-color: #242425;
+    color: white;
+    font-size: 12px;
+    margin: 0;
+    padding: 10px 30px;
+
+ }
+    .contenedor-footer .row-footer {
+      width: 100%;
+      min-height: 12vh;
+      align-items: center;
+      padding: 5px 0px; }
+      .contenedor-footer .row-footer .text-muted {
+        padding-top: 15px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center; }
+      .contenedor-footer .row-footer .tituloredes {
+        text-align: center;
+        color: white; }
+      .contenedor-footer .row-footer .redes {
+        display: flex;
+        text-align: center;
+        padding: .5em; }
+        .contenedor-footer .row-footer .redes .item-footer .fa-facebook,
+        .contenedor-footer .row-footer .redes .item-footer .fa-instagram,
+        .contenedor-footer .row-footer .redes .item-footer .fa-linkedin,
+        .contenedor-footer .row-footer .redes .item-footer .fa-whatsapp {
+          color: white; }
+  
+  .fa-facebook {
+    background: rgba(77, 77, 213, 0.773);
+    border-radius: 3px; }
+  
+  .fa-instagram {
+    background: rgba(216, 89, 169, 0.702);
+    border-radius: 3px; }
+  
+  .fa-whatsapp {
+    background: rgba(42, 209, 42, 0.481);
+    border-radius: 3px; }
+  
+  .fa-linkedin {
+    background: rgba(36, 157, 222, 0.777);
+    border-radius: 3px; }

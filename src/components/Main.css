@@ -1,0 +1,22 @@
+main {
+    min-height: 100vh; }
+    main .background .slide,
+    main .carrusel .slide {
+      background-color: #161617ee;
+      margin: auto; }
+      main .background .slide .carousel-caption,
+      main .carrusel .slide .carousel-caption {
+        background-color: #161617ee; }
+      main .background .slide .carrusel,
+      main .carrusel .slide .carrusel {
+        max-height: 480px;
+        width: 80%; }
+        .img-fluid{
+            height: 100%;
+        }
+   
+        .saludo{
+          padding: 50px;
+          color: orange;
+          text-align: center;
+        }

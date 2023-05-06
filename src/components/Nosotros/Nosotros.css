@@ -1,0 +1,29 @@
+.contenedor_principal{
+    height: 78vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: black;
+ padding: 30px;
+}
+
+.card{
+border: transparent;
+}
+.card-header{
+    color: orange;
+  
+}
+.card-body{
+    text-align: justify;
+    color: black;
+    max-height:200px !important ;
+}
+.card-footer{
+    color: gray;
+}
+
+.img-fluid{
+   width: 100%;
+   max-height: 50%;
+}

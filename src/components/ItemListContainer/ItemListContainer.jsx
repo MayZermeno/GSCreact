@@ -2,10 +2,10 @@ import "./ItemListContainer.css";
 import React from "react";
 import { useEffect, useState } from "react";
 import pedirProductos from "./pedirProductos";
-import ItemList from "../ItemList";
+import ItemDetailContainer from "../ItemDetailContainer";
 
 
-const ItemListContainer = ({ greeting }) => {
+const ItemListContainer = () => {
 
 
     const [productos, setProductos] = useState([]);
@@ -22,10 +22,7 @@ const ItemListContainer = ({ greeting }) => {
 
     return (
         <div>
-            <h2>{greeting}</h2>
-    
-                
-                    <ItemList productos={productos} />
+                    <ItemDetailContainer productos={productos} />
             
             </div>
       

@@ -1,0 +1,20 @@
+.marcas{
+    height: 78vh;
+}
+
+.contenedor-boton{
+    text-align: center;
+    padding: 30px;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+ 
+}
+
+.text-dark{
+    text-align: center;
+}
