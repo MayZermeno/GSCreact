@@ -1,5 +1,5 @@
 .marcas{
-    height: 78vh;
+   min-height: 78vh;
 }
 
 .contenedor-boton{
@@ -17,4 +17,9 @@ a{
 
 .text-dark{
     text-align: center;
+}
+
+.brand-img{
+    text-align: center;
+    padding: 10px 20px;
 }

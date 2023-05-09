@@ -18,10 +18,13 @@ const NavBar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarText">
                     <ul className="navbar-nav justify-content-end">
-
+                        <li><Link to="/"> Inicio</Link></li>
                         <li><Link to="/Nosotros"> Nosotros </Link></li>
-                        <li><Link to="/Marcas"> Marcas</Link></li>
-                        <li><Link to="/Contacto"> Contacto</Link></li>
+                        <li><Link to="/productos/Fritos"> Fritos y Empanizados</Link></li>
+                        <li><Link to="/productos/Pollo"> Pollo</Link></li>
+                        <li><Link to="/productos/Res"> Res</Link></li>
+                        <li><Link to="/productos/Cerdo"> Cerdo</Link></li>
+                        <li><Link to="/productos/Pescado"> Pescado</Link></li>                       
                     </ul>
 
                 </div>

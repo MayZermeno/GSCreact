@@ -1,6 +1,6 @@
 [{
     "id": 1,
-    "categoria": "Fritos y empanizados",
+    "categoria": "Fritos",
     "imagen": "/Img/frenchfries.png",
     "titulo": "Papas a la francesa",
     "descripcion": "Corte recto y ondulado.",
@@ -9,7 +9,7 @@
 },
 {
     "id": 2,
-    "categoria": "Fritos y empanizados",
+    "categoria": "Fritos",
     "imagen": "/Img/cfingers.png",
     "titulo": "Dedos de queso",
     "descripcion": "Queso gouda empanizado",
@@ -18,7 +18,7 @@
 },
 {
     "id": 3,
-    "categoria": "Fritos y empanizados",
+    "categoria": "Fritos",
     "imagen": "/Img/papasg.jpg",
     "titulo": "Papas gajo",
     "descripcion": "Papa natural con cáscara sazoneada y horneada.",
@@ -27,7 +27,7 @@
 },
 {
     "id": 4,
-    "categoria": "Fritos y empanizados",
+    "categoria": "Fritos",
     "imagen": "/Img/chickenpops.png",
     "titulo": "Palomitas de pollo",
     "descripcion": "Trozos de pechuga natural con cubierta empanizada, precocinados listos para cocinar o freír.",
@@ -36,7 +36,7 @@
 },
 {
     "id": 5,
-    "categoria": "Fritos y empanizados",
+    "categoria": "Fritos",
     "imagen": "/Img/dinonuggets.png",
     "titulo": "Dino nuggets",
     "descripcion": "Carne de pechuga de pollo con cubierta empanizada.",
@@ -45,7 +45,7 @@
 },
 {
     "id": 6,
-    "categoria": "Fritos y empanizados",
+    "categoria": "Fritos",
     "imagen": "/Img/nugget.png",
     "titulo": "Nuggets",
     "descripcion": "Carne de pechuga de pollo con cubierta empanizada.",
@@ -54,7 +54,7 @@
 },
 {
     "id": 7,
-    "categoria": "Fritos y empanizados",
+    "categoria": "Fritos",
     "imagen": "/Img/fajita.png",
     "titulo": "Fajita de pechuga de pollo",
     "descripcion": "Filete de pechuga de pollo, marinado, empanizado,precocido y congelado.",
@@ -63,7 +63,7 @@
 },
 {
     "id": 8,
-    "categoria": "Fritos y empanizados",
+    "categoria": "Fritos",
     "imagen": "/Img/chicken pops.png",
     "titulo": "Bolitas de pollo",
     "descripcion": "Carne de pechuga de pollo con empanizada, rellenas de queso mozarella que puede combinarse con jamón serrano, jalapeño o chipotle.",
@@ -72,7 +72,7 @@
 },
 {
     "id": 9,
-    "categoria": "Fritos y empanizados",
+    "categoria": "Fritos",
     "imagen": "/Img/milanesa.png",
     "titulo": "Milanesa",
     "descripcion": "Pechuga de pollo empanizada en forma de milanera marinada y congelada IQF.",

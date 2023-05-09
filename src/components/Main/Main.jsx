@@ -1,7 +1,8 @@
 import "./Main.css";
-import bgmeat from "./assets/bgmeat.png";
-import bgchicken from "./assets/bgchicken.png";
-import ptogrill from "./assets/puntogrill.png"
+import bgmeat from "../assets/bgmeat.png";
+import bgchicken from "../assets/bgchicken.png";
+import ptogrill from "../assets/puntogrill.png";
+import Marcas from "../Marcas/Marcas";
 
 const Main =({ greeting="Bienvenidos" })=>{
     return(
@@ -44,6 +45,7 @@ const Main =({ greeting="Bienvenidos" })=>{
                     </div>
                 </div>
                 <h1 className="saludo">{greeting="Bienvenidos"}</h1>
+                <Marcas/>
         </main>
     )
 }

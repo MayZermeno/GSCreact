@@ -11,8 +11,30 @@ h4{
 }
 
 .card{
-    min-height:650px;
+    min-height:550px;
 }
 .img-fluid{
-   height: 200px;
+   height: 250px ;
+}
+.card-title{
+    text-align: center;
+}
+.card-img{
+    height: 250px !important;
+}
+.container{
+    min-height: 76vh;
+}
+.titulo-productos{
+    text-align: center
+}
+
+.ver-mas{
+    text-align: center;
+    border: solid 2px;
+    color: orange;
+}
+.ver-mas:hover{
+    background: orange;
+    color: black;
 }
