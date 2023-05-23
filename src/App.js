@@ -7,6 +7,7 @@ import Marcas from './components/Marcas/Marcas';
 import Footer from './components/footer/footer';
 import Main from './components/Main/Main';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
+import Cart from './components/cart';
 
 
 // import { Titulo } from './components/Titulo/Titulo';
@@ -24,6 +25,7 @@ function App() {
         <Route path='/nosotros' element={<Nosotros/>} />
         <Route path='/marcas' element={<Marcas/>} />
         <Route path='/item/:id' element={<ItemDetailContainer/>} />
+        <Route path='/cart' element={<Cart/>} />
        
       </Routes>
 

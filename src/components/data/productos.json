@@ -5,6 +5,7 @@
     "titulo": "Papas a la francesa",
     "descripcion": "Corte recto y ondulado.",
     "cantidad": "",
+    "stock":30,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -14,6 +15,7 @@
     "titulo": "Dedos de queso",
     "descripcion": "Queso gouda empanizado",
     "cantidad": "Caja de 10kg (contiene 10 bolsas de 1kg c/u)",
+    "stock":30,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -23,6 +25,7 @@
     "titulo": "Papas gajo",
     "descripcion": "Papa natural con cáscara sazoneada y horneada.",
     "cantidad": "",
+    "stock":30,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -32,6 +35,7 @@
     "titulo": "Palomitas de pollo",
     "descripcion": "Trozos de pechuga natural con cubierta empanizada, precocinados listos para cocinar o freír.",
     "cantidad": "",
+    "stock":30,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -41,6 +45,7 @@
     "titulo": "Dino nuggets",
     "descripcion": "Carne de pechuga de pollo con cubierta empanizada.",
     "cantidad": "",
+    "stock":0,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -50,6 +55,7 @@
     "titulo": "Nuggets",
     "descripcion": "Carne de pechuga de pollo con cubierta empanizada.",
     "cantidad": "",
+    "stock":30,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -59,6 +65,7 @@
     "titulo": "Fajita de pechuga de pollo",
     "descripcion": "Filete de pechuga de pollo, marinado, empanizado,precocido y congelado.",
     "cantidad": "",
+    "stock":30,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -68,6 +75,7 @@
     "titulo": "Bolitas de pollo",
     "descripcion": "Carne de pechuga de pollo con empanizada, rellenas de queso mozarella que puede combinarse con jamón serrano, jalapeño o chipotle.",
     "cantidad": "",
+    "stock":55,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -77,6 +85,7 @@
     "titulo": "Milanesa",
     "descripcion": "Pechuga de pollo empanizada en forma de milanera marinada y congelada IQF.",
     "cantidad": "",
+    "stock":55,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -86,6 +95,7 @@
     "titulo": "Ala natural ",
     "descripcion": "Producto corte vampiro, color blanco y totalmente limpio.",
     "cantidad": "",
+    "stock":55,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -95,6 +105,7 @@
     "titulo": "Ala enchilada ",
     "descripcion": "Producto corte vampiro, marinado al vacio.",
     "cantidad": "",
+    "stock":55,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -104,6 +115,7 @@
     "titulo": "Pechuga de pollo ",
     "descripcion": "Pechuga de pollo fresca, congelada",
     "cantidad": "",
+  "stock":20,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -113,6 +125,7 @@
     "titulo": "Cuero belly planchado ",
     "descripcion": "",
     "cantidad": "",
+  "stock":10,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -122,6 +135,7 @@
     "titulo": "Pernil de Cerdo sin cuero al alto vacio",
     "descripcion": "Carne magra de cerdo",
     "cantidad": "",
+  "stock":10,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -131,6 +145,7 @@
     "titulo": "Pernil de Cerdo sin cuero congelado ",
     "descripcion": "",
     "cantidad": "",
+    "stock":10,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -140,6 +155,7 @@
     "titulo": "Codillo ",
     "descripcion": "",
     "cantidad": "",
+  "stock":10,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -149,6 +165,7 @@
     "titulo": "Pierna sin hueso ",
     "descripcion": "",
     "cantidad": "",
+  "stock":10,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -158,6 +175,7 @@
     "titulo": "Pierna congelada ",
     "descripcion": "",
     "cantidad": "",
+  "stock":10,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -167,51 +185,57 @@
     "titulo": "Chuleta de cerdo ",
     "descripcion": "",
     "cantidad": "",
+  "stock":6,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
     "id": 20,
     "categoria": "Res",
     "imagen": "/Img/burgerraw.png",
-    "titulo": " ",
+    "titulo": "Hamburguesa de Res ",
     "descripcion": "",
     "cantidad": "",
+  "stock":8,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
     "id": 21,
     "categoria": "Pescado",
     "imagen": "/Img/basa.png",
-    "titulo": " ",
+    "titulo": "Basa ",
     "descripcion": "",
     "cantidad": "",
+  "stock":13,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
     "id": 22,
     "categoria": "Pescado",
     "imagen": "/Img/tilapia.png",
-    "titulo": " ",
+    "titulo": "Tilapia",
     "descripcion": "",
     "cantidad": "",
+  "stock":11,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
     "id": 23,
     "categoria": "Pescado",
     "imagen": "/Img/tuna.png",
-    "titulo": " ",
+    "titulo": "Atún",
     "descripcion": "",
     "cantidad": "",
+  "stock":16,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
     "id": 24,
     "categoria": "Pescado",
     "imagen": "/Img/salmon.png",
-    "titulo": " ",
+    "titulo": "Salmón ",
     "descripcion": "",
     "cantidad": "",
+  "stock":21,
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 }
 ]

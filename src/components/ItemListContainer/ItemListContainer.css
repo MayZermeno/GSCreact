@@ -11,13 +11,14 @@ h4{
 }
 
 .card{
-    min-height:550px;
+    min-height:450px;
 }
 .img-fluid{
    height: 250px ;
 }
 .card-title{
     text-align: center;
+    height: 80px;/*Altura del título para que no ese desfase con el boton de ver más*/
 }
 .card-img{
     height: 250px !important;

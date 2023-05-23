@@ -1,7 +1,16 @@
 import "./ItemListContainer/ItemListContainer.css";
-import Counter from "./Contador/Contador"
+import Counter from "./Contador/Contador";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const ItemDetail = ({ item }) => {
+
+    const [goToCart, setGoToCart] =useState(false);
+
+const onAdd =(quantity)=>{
+    setGoToCart(true);
+}
+
     return (
 
         <div className="container mt-5">
@@ -12,8 +21,13 @@ const ItemDetail = ({ item }) => {
                     {/* <p className="d-flex darktext justify-content-center"> id: {item.id} </p> */}
                     <p className="d-flex darktext">{item.descripcion}</p>
                     <p className="d-flex darktext">  {item.vigencia}</p>
-                    <Counter initial={1} stock={8} onAdd={(quantity) => console.log('cantidad agregada', quantity)
-                } />
+                   
+                    {
+                        goToCart
+                        ?
+                        <Link className="button" to='/cart'>Terminar Compra</Link>
+                        : <Counter initial={1} stock={item.stock} onAdd={onAdd} />
+                    }
                 </div>
             </div>
         </div>
