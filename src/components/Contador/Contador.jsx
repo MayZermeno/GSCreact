@@ -1,35 +1,20 @@
-import { useState } from "react";
+
 import React from "react";
 import './contador.css';
 
-const Counter = ({stock, initial, onAdd}) => {
+const ItemCounter = ({cantidad, increment, decrement, botonAgregar}) => {
 
- const [quantity, setQuantity] = useState(initial);
- 
-    const increment = () => {
-        if (quantity < stock) {
-            setQuantity(quantity + 1)
-        }
-        
-    }
-    const decrement = () =>{
-
-        if (quantity > 1){ 
-            setQuantity(quantity - 1)
-        }
-
-    }
 
 
 return (
     <div className="counter">
         <div className="controls">
         <button className="button" onClick={decrement}> - </button>
-        <h3 className="number">{quantity}</h3>
+        <h3 className="number">{cantidad}</h3>
         <button className="button" onClick={increment}> + </button>
         </div>
         <div>
-        <button className="button" onClick={() => onAdd(quantity)} disabled={!stock}>
+        <button className="button" onClick={botonAgregar}>
             Agregar al carrito</button>
         </div>
      </div>
@@ -41,4 +26,4 @@ return (
 
 
 
-export default Counter;
+export default ItemCounter;

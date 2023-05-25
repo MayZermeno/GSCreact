@@ -1,15 +1,48 @@
 import "./ItemListContainer/ItemListContainer.css";
-import Counter from "./Contador/Contador";
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import ItemCounter from "./Contador/Contador";
+import React, { useContext, useState } from "react";
+import { CartContext } from "../context/CartContext";
+
 
 const ItemDetail = ({ item }) => {
+    const {carrito, setCarrito} = useContext (CartContext);
 
-    const [goToCart, setGoToCart] =useState(false);
 
-const onAdd =(quantity)=>{
-    setGoToCart(true);
+ const [cantidad, setCantidad] = useState(1);
+ 
+ const increment = () => {
+  cantidad < item.stock && setCantidad(cantidad + 1)
+     
+     
+ }
+ const decrement = () => {
+cantidad > 1 && setCantidad(cantidad -1)
 }
+
+const botonAgregar = ()=>{
+
+   const itemAgregado = {...item, cantidad};
+   const nuevoCarrito =[...carrito];
+
+   const estaEnCarrito = nuevoCarrito.find((producto)=> producto.id === itemAgregado.id)
+
+  
+
+
+   if (estaEnCarrito){
+    estaEnCarrito.cantidad +=  cantidad;
+    setCarrito(nuevoCarrito);
+   }
+   else{
+    nuevoCarrito.push(itemAgregado);
+  
+   }
+   setCarrito(nuevoCarrito);
+     
+}
+console.log(carrito)
+
+
 
     return (
 
@@ -23,10 +56,11 @@ const onAdd =(quantity)=>{
                     <p className="d-flex darktext">  {item.vigencia}</p>
                    
                     {
-                        goToCart
-                        ?
-                        <Link className="button" to='/cart'>Terminar Compra</Link>
-                        : <Counter initial={1} stock={item.stock} onAdd={onAdd} />
+                        <ItemCounter 
+                        cantidad={cantidad} 
+                        increment={increment} 
+                        decrement={decrement} 
+                        botonAgregar={botonAgregar} />
                     }
                 </div>
             </div>

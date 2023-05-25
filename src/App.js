@@ -8,33 +8,37 @@ import Footer from './components/footer/footer';
 import Main from './components/Main/Main';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import Cart from './components/cart';
+import { useState } from 'react';
+import {CartContext} from './context/CartContext';
 
 
-// import { Titulo } from './components/Titulo/Titulo';
 
 function App() {
+const [carrito, setCarrito]= useState([]);
+
     return ( 
-  
-<BrowserRouter>
-      
-      <NavBar/>
-      <Routes>
-      <Route path='/' element= { <Main />} />
-      <Route path='/productos' element= { <ItemListContainer />} />
-        <Route path='/productos/:categoria' element= { <ItemListContainer />} />
-        <Route path='/nosotros' element={<Nosotros/>} />
-        <Route path='/marcas' element={<Marcas/>} />
-        <Route path='/item/:id' element={<ItemDetailContainer/>} />
-        <Route path='/cart' element={<Cart/>} />
-       
-      </Routes>
+    <CartContext.Provider value={{carrito, setCarrito}}>
 
-<Footer/>
+  <BrowserRouter>
+        
+        <NavBar/>
+        <Routes>
+        <Route path='/' element= { <Main />} />
+        <Route path='/productos' element= { <ItemListContainer />} />
+          <Route path='/productos/:categoria' element= { <ItemListContainer />} />
+          <Route path='/nosotros' element={<Nosotros/>} />
+          <Route path='/marcas' element={<Marcas/>} />
+          <Route path='/item/:id' element={<ItemDetailContainer/>} />
+          <Route path='/cart' element={<Cart/>} />
+        
+        </Routes>
+
+  <Footer/>
 
 
-      {/* <Titulo/>    */}
-      </BrowserRouter>
-  
+    
+        </BrowserRouter>
+        </CartContext.Provider>
     );
 }
 
