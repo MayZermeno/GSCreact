@@ -1,3 +1,29 @@
-.container{
-    height: 78vh;
+.cart-container{
+    height: 75vh;
+    margin: 20px;
+}
+h3{
+    color: rgb(89, 175, 23);
+    padding: 10px;
+    
+}
+.card-text{
+    color: black;
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.precio-total{
+    font-weight: 700;
+}
+
+.btn-compra{
+    max-height: 50px;
+    margin: auto;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }

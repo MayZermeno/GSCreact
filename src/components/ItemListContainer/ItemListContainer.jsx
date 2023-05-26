@@ -14,8 +14,7 @@ const ItemListContainer = () => {
     const [titulo, setTitulo]=useState("Productos");
     const categoria =useParams ().categoria;
     const id =useParams().id
-    console.log(categoria)
-
+  
 
     useEffect(() => {
         pedirProductos()
@@ -28,7 +27,7 @@ const ItemListContainer = () => {
                 }
                
             })
-    }, [categoria])
+    }, [categoria]);
 
     useEffect(() => {
         pedirProductos()
@@ -40,7 +39,16 @@ const ItemListContainer = () => {
                 }
                
             })
-    }, [id])
+    }, [id]);
+    useEffect(() => {
+        if (categoria) {
+          pedirProductos().then((res) => {
+            setProductos(res.filter((prod) => prod.categoria === categoria));
+            setTitulo(categoria);
+          });
+        }
+      }, [categoria]);
+    
 
 
 

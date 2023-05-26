@@ -8,17 +8,17 @@ import Footer from './components/footer/footer';
 import Main from './components/Main/Main';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import Cart from './components/cart';
-import { useState } from 'react';
-import {CartContext} from './context/CartContext';
+
+import {CartProvider} from './context/CartContext';
 
 
 
 function App() {
-const [carrito, setCarrito]= useState([]);
+
 
     return ( 
-    <CartContext.Provider value={{carrito, setCarrito}}>
 
+<CartProvider>
   <BrowserRouter>
         
         <NavBar/>
@@ -38,7 +38,7 @@ const [carrito, setCarrito]= useState([]);
 
     
         </BrowserRouter>
-        </CartContext.Provider>
+        </CartProvider>
     );
 }
 

@@ -2,6 +2,9 @@ h2{
     padding: 30px;
     color: orange;
 }
+
+
+
 h4{
     color: black;
 }
@@ -13,12 +16,13 @@ h4{
 .card{
     min-height:450px;
 }
+
 .img-fluid{
    height: 250px ;
 }
 .card-title{
     text-align: center;
-    height: 80px;/*Altura del título para que no ese desfase con el boton de ver más*/
+   min-height: 110px;/*Altura del título para que no ese desfase con el boton de ver más*/
 }
 .card-img{
     height: 250px !important;

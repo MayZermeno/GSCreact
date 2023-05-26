@@ -13,19 +13,20 @@ export const pedirProductos= ()=>{
         })
     }
 
-    export const pedirItemporId = (id)=>{
-        return new Promise ((resolve, reject)=>{
-            const item =data.find ((el)=>el.id === id);
-            if (item){
-                resolve(item);
-                
-            }else{
-                reject({
-                    error:"No se encontró el producto"
-                })
+    export const pedirItemporId = (id) => {
+        return new Promise((resolve, reject) => {
+          try {
+            const item = data.find((el) => el.id === id);
+            if (item) {
+              resolve(item);
+            } else {
+              throw new Error("No se encontró el producto");
             }
-        }
-        )
-    }
+          } catch (error) {
+            reject(error);
+          }
+        });
+      };
+      
 
     export default pedirProductos

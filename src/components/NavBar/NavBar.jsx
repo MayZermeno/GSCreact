@@ -24,13 +24,14 @@ const NavBar = () => {
                         <li><Link to="/productos/Pollo"> Pollo</Link></li>
                         <li><Link to="/productos/Res"> Res</Link></li>
                         <li><Link to="/productos/Cerdo"> Cerdo</Link></li>
-                        <li><Link to="/productos/Pescado"> Pescado</Link></li>                       
+                        <li><Link to="/productos/Pescado"> Pescado</Link></li>  
+                               
                     </ul>
-
+                    <CartWidget />      
                 </div>
 
 
-                <CartWidget />
+                
 
             </div>
 

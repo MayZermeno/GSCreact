@@ -6,6 +6,7 @@
     "descripcion": "Corte recto y ondulado.",
     "cantidad": "",
     "stock":30,
+    "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -16,6 +17,7 @@
     "descripcion": "Queso gouda empanizado",
     "cantidad": "Caja de 10kg (contiene 10 bolsas de 1kg c/u)",
     "stock":30,
+    "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -26,6 +28,7 @@
     "descripcion": "Papa natural con cáscara sazoneada y horneada.",
     "cantidad": "",
     "stock":30,
+    "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -36,6 +39,7 @@
     "descripcion": "Trozos de pechuga natural con cubierta empanizada, precocinados listos para cocinar o freír.",
     "cantidad": "",
     "stock":30,
+    "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -46,6 +50,7 @@
     "descripcion": "Carne de pechuga de pollo con cubierta empanizada.",
     "cantidad": "",
     "stock":0,
+    "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -56,6 +61,7 @@
     "descripcion": "Carne de pechuga de pollo con cubierta empanizada.",
     "cantidad": "",
     "stock":30,
+    "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -66,6 +72,7 @@
     "descripcion": "Filete de pechuga de pollo, marinado, empanizado,precocido y congelado.",
     "cantidad": "",
     "stock":30,
+    "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -76,6 +83,7 @@
     "descripcion": "Carne de pechuga de pollo con empanizada, rellenas de queso mozarella que puede combinarse con jamón serrano, jalapeño o chipotle.",
     "cantidad": "",
     "stock":55,
+    "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -86,6 +94,7 @@
     "descripcion": "Pechuga de pollo empanizada en forma de milanera marinada y congelada IQF.",
     "cantidad": "",
     "stock":55,
+    "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -96,6 +105,7 @@
     "descripcion": "Producto corte vampiro, color blanco y totalmente limpio.",
     "cantidad": "",
     "stock":55,
+    "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -106,6 +116,7 @@
     "descripcion": "Producto corte vampiro, marinado al vacio.",
     "cantidad": "",
     "stock":55,
+    "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -116,6 +127,7 @@
     "descripcion": "Pechuga de pollo fresca, congelada",
     "cantidad": "",
   "stock":20,
+  "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -125,7 +137,8 @@
     "titulo": "Cuero belly planchado ",
     "descripcion": "",
     "cantidad": "",
-  "stock":10,
+  "stock":10, 
+  "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -136,6 +149,7 @@
     "descripcion": "Carne magra de cerdo",
     "cantidad": "",
   "stock":10,
+  "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -146,6 +160,7 @@
     "descripcion": "",
     "cantidad": "",
     "stock":10,
+    "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -156,6 +171,7 @@
     "descripcion": "",
     "cantidad": "",
   "stock":10,
+  "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -166,6 +182,7 @@
     "descripcion": "",
     "cantidad": "",
   "stock":10,
+  "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -176,6 +193,7 @@
     "descripcion": "",
     "cantidad": "",
   "stock":10,
+  "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -186,6 +204,7 @@
     "descripcion": "",
     "cantidad": "",
   "stock":6,
+  "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -196,6 +215,7 @@
     "descripcion": "",
     "cantidad": "",
   "stock":8,
+  "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -206,6 +226,7 @@
     "descripcion": "",
     "cantidad": "",
   "stock":13,
+  "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -216,6 +237,7 @@
     "descripcion": "",
     "cantidad": "",
   "stock":11,
+  "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -226,6 +248,7 @@
     "descripcion": "",
     "cantidad": "",
   "stock":16,
+  "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 },
 {
@@ -236,6 +259,7 @@
     "descripcion": "",
     "cantidad": "",
   "stock":21,
+  "precio":"80",
     "vigencia": "10 meses a partir de fecha de elaboración (mantenerse a -18ºC)"
 }
 ]
