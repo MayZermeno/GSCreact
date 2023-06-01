@@ -1,31 +1,23 @@
-import db from "./firebaseConfig.js";
+import { doc, getDoc ,collection,getDocs, getFirestore } from "firebase/firestore";
 
-export const pedirProductos = () => {
-  return db
-    .collection("productos")
-    .get()
-    .then((querySnapshot) => {
-      const productos = [];
-      querySnapshot.forEach((doc) => {
-        productos.push(doc.data());
+export const getProductos = async (collections)=>{
+  const db = getFirestore();
+  const ProductosCollection = collection (db,collections);
+  const result= await getDocs(ProductosCollection);
+  return result.docs.map((doc)=>({id:doc.id, ...doc.data()}))
+};
+
+export const getDocument = async(collections, idDocuments)=>{
+  const db = getFirestore();
+  const productRef = doc(db,collections,idDocuments);
+
+  getDoc(productRef).then((snapshot)=>{
+      if (snapshot.exists()){
+          return({id:snapshot.id,...snapshot.data()});
+      }  
       });
-      return productos;
-    })
-    .catch((error) => {
-      throw new Error("Error al obtener los productos: " + error.message);
-    });
-};
+      };
 
-export const pedirItemporId = async (id) => {
-  try {
-    const doc = await db.collection("productos").doc(id).get();
-    if (doc.exists) {
-      return doc.data();
-    } else {
-      throw new Error("No se encontró el producto");
-    }
-  } catch (error) {
-    throw new Error("Error al obtener el producto: " + error.message);
-  }
-};
 
+
+      
