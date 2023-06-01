@@ -14,10 +14,10 @@ const Nosotros = () =>{
                     </div>
                     <div className="card-body">
                                        
-                    <p>Contamos con más de 10 años de experiencia en la industria.</p>
-                    <p>Nuestro grupo esta dedicado a la comercializacion de productos carnicos de la más alta calidad.</p>
+                    <p className="dark-text">Contamos con más de 10 años de experiencia en la industria.</p>
+                    <p className="dark-text">Nuestro grupo esta dedicado a la comercializacion de productos carnicos de la más alta calidad.</p>
                     </div>
-                    <div className="card-footer">    <h5>RES, POLLO, PESCADO, CERDO, FRUTAS</h5>  </div>            
+                    <div className="card-footer"><h5>RES, POLLO, PESCADO, CERDO, FRUTAS</h5>  </div>            
              </div>
             </div>
             <div class="col-sm-12 col-md-6 ">

@@ -23,6 +23,7 @@ const Cart = () => {
                 increment={() => aumentarCantidad(prod.id)}
                 decrement={() => disminuirCantidad(prod.id)}
                 stock={prod.stock} 
+                mostrarBotonAgregar={false}
               />
             </div>
           </div>

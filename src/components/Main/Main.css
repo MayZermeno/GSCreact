@@ -1,5 +1,7 @@
+
 main {
-    min-height: 100vh; }
+    min-height: 78vh; 
+   }
     main .background .slide,
     main .carrusel .slide {
       background-color: #161617ee;

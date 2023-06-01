@@ -9,7 +9,7 @@ const NavBar = () => {
     return (
         <nav className="navbar navbar-dark navbar-expand-lg" id="navbar">
             <div className="container-fluid d-flex justify-content-between align-items-center">
-                <Link clLinkssName="navbar-brand mx-3" to="/">
+                <Link className="navbar-brand mx-3" to="/">
                     <img src={logo} alt="" width="100" />
                 </Link>
 

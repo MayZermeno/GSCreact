@@ -2,7 +2,7 @@
 import React from "react";
 import './contador.css';
 
-const ItemCounter = ({cantidad, increment, decrement, botonAgregar}) => {
+const ItemCounter = ({cantidad, increment, decrement, mostrarBotonAgregar, botonAgregar}) => {
 
 
 
@@ -13,10 +13,13 @@ return (
         <h3 className="number">{cantidad}</h3>
         <button className="button" onClick={increment}> + </button>
         </div>
+        {mostrarBotonAgregar && (
         <div>
-        <button className="button" onClick={botonAgregar}>
-            Agregar al carrito</button>
+          <button className="button" onClick={botonAgregar}>
+            Agregar al carrito
+          </button>
         </div>
+      )}
      </div>
    
      )

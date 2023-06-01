@@ -4,10 +4,11 @@ import React, { useContext, useState } from "react";
 import { CartContext } from "../context/CartContext";
 
 
-const ItemDetail = ({ item }) => {
-    const {carrito, agregarAlCarrito} = useContext (CartContext);
 
-console.log(carrito)
+const ItemDetail = ({ item }) => {
+    const { agregarAlCarrito} = useContext (CartContext);
+
+
  const [cantidad, setCantidad] = useState(1);
  
  const increment = () => {
@@ -18,6 +19,7 @@ console.log(carrito)
  const decrement = () => {
 cantidad > 1 && setCantidad(cantidad -1)
 }
+
 
 
     return (
@@ -38,6 +40,7 @@ cantidad > 1 && setCantidad(cantidad -1)
                         cantidad={cantidad} 
                         increment={increment} 
                         decrement={decrement} 
+                        mostrarBotonAgregar={true}
                         botonAgregar={()=>{agregarAlCarrito(item,cantidad)}} />
                     }
                 </div>

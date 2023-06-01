@@ -1,7 +1,13 @@
 .App {
   text-align: center;
 }
+.body{
+  background-image: url("/public/Img/ladrillo.jpg");
+  background-color: #f4f4f4;
+  background-position: center;
+  background-size: cover;
 
+}
 
 
 @media (prefers-reduced-motion: no-preference) {

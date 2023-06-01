@@ -1,5 +1,5 @@
 .cart-container{
-    height: 75vh;
+   min-height: 76vh;
     margin: 20px;
 }
 h3{
