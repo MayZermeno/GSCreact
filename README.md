@@ -1,6 +1,10 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Información general
+Alimentos San Carlos en una tienda en línea donde se venden alimentos cárnicos de las más alta calidad.
+
+## Tecnologias
+Este proyecto utiliza React, HTML, JS, Bootstrap
+
 
 ## Available Scripts
 
