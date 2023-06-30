@@ -1,6 +1,15 @@
 .navbar {
     height: auto;
-    background-color: #1a1a1c; }
+    transition: background-color 0.3s ease;
+    background-image: linear-gradient(to bottom, #1a1a1ce1, #8a8b9006);
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 999;}
+.navbar-scrolled{
+    background-color: rgba(23, 24, 24, 0.795);
+}
 
 .navbar ul li a {
         padding: 7px 13px;

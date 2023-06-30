@@ -29,7 +29,8 @@ h4{
     height: 250px !important;
 }
 .container{
-    min-height: 74vh;
+    min-height:87vh;
+    padding-top: 120px;
 }
 .titulo-productos{
     text-align: center

@@ -4,15 +4,15 @@ main {
    }
     main .background .slide,
     main .carrusel .slide {
-      background-color: #161617ee;
+      background-color: #29292acc;
       margin: auto; }
       main .background .slide .carousel-caption,
       main .carrusel .slide .carousel-caption {
-        background-color: #161617ee; }
+        background-color: #22222431; }
       main .background .slide .carrusel,
       main .carrusel .slide .carrusel {
-        max-height: 480px;
-        width: 80%; }
+        max-height: 650px;
+        width: 100%; }
         .img-fluid{
             height: 100%;
         }
@@ -22,3 +22,6 @@ main {
           color: orange;
           text-align: center;
         }
+
+
+    
