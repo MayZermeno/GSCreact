@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./NavBar.css";
-import logo from "../NavBar/assets/logo.png";
+import logo from "../NavBar/assets/Newlogo.png";
 import { Link } from "react-router-dom";
 import CartWidget from "../CartWidget/CartWidget";
 
@@ -51,8 +51,9 @@ const NavBar = () => {
               <Link to="/"> Inicio</Link>
             </li>
             <li>
-              <Link to="/Nosotros"> Nosotros </Link>
-            </li>
+  <a href="/#nosotros"> Nosotros</a>
+</li>
+         
             <li>
               <Link to="/productos/Fritos"> Fritos y Empanizados</Link>
             </li>

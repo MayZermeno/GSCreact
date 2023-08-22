@@ -23,3 +23,14 @@ a{
     text-align: center;
     padding: 10px 20px;
 }
+.alineadovertical{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brandtitle{
+    padding-top: 50px;
+    color: orange;
+
+    background: transparent;
+}

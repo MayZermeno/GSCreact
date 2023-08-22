@@ -1,8 +1,10 @@
 
 import "./Main.css";
+import Nosotros from "../Nosotros/Nosotros";
 import bgmeat from "../assets/bgmeat.png";
 import bgchicken from "../assets/bgchicken.png";
 import Marcas from "../Marcas/Marcas";
+import Map from "../Map/Map";
 
 
 const Main =({ greeting="Bienvenidos" })=>{
@@ -45,8 +47,10 @@ const Main =({ greeting="Bienvenidos" })=>{
                     </button>
                     </div>
                 </div>
-                <h1 className="saludo">{greeting="Bienvenidos"}</h1>
+                {/* <h1 className="saludo">{greeting="Bienvenidos"}</h1> */}
                 <Marcas/>
+                <Nosotros/>
+                <Map/>
         </main>
     )
 }

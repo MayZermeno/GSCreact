@@ -1,27 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600&display=swap');
 
+/* Estilos para el main container */
 main {
-    min-height: 78vh; 
-   }
-    main .background .slide,
-    main .carrusel .slide {
-      background-color: #29292acc;
-      margin: auto; }
-      main .background .slide .carousel-caption,
-      main .carrusel .slide .carousel-caption {
-        background-color: #22222431; }
-      main .background .slide .carrusel,
-      main .carrusel .slide .carrusel {
-        max-height: 650px;
-        width: 100%; }
-        .img-fluid{
-            height: 100%;
-        }
-   
-        .saludo{
-          padding: 50px;
-          color: orange;
-          text-align: center;
-        }
+  min-height: 78vh;
+  font-family: 'Manrope', sans-serif;
+}
 
+/* Estilos para los slides del carrusel */
+main .background .slide,
+main .carrusel .slide {
+  background-color: rgba(41, 41, 42, 0.8); /* Usar rgba para el color de fondo */
+  margin: auto;
+}
 
-    
+/* Estilos para los captions del carrusel */
+main .background .slide .carousel-caption,
+main .carrusel .slide .carousel-caption {
+  background-color: rgba(34, 34, 36, 0.19);
+}
+
+/* Estilos para el carrusel dentro de los slides */
+main .background .slide .carrusel,
+main .carrusel .slide .carrusel {
+  max-height: 650px;
+  width: 100%;
+}
+
+/* Estilos para las imágenes fluidas */
+.img-fluid {
+  height: 100%;
+}
+
+/* Estilos para el saludo */
+.saludo {
+  padding: 50px;
+  color: orange;
+  text-align: center;
+}
+
+/* Media query para pantallas anchas */
+@media (min-width: 1300px) {
+  main .background .slide .carrusel,
+  main .carrusel .slide .carrusel {
+    max-height: 50%; /* Cambiar la altura para pantallas anchas */
+  }
+}
