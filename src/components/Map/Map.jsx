@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Map.css";
+import {RiWhatsappFill } from "react-icons/ri";
 
 
 
@@ -47,18 +48,18 @@ const Map = () => {
                   <div className=" d-flex align-items-center justify-content-between">
                   <a href="https://wa.me/3310109277" target="_blank">
                       <button type="button" className="btn zona bajio m-1">
-                        ZONA BAJIO
+                        ZONA BAJIO <RiWhatsappFill className='icono-fa'/>
                       </button>
                     </a>
                     <a href="https://wa.me/5536632889" target="_blank">
   <button type="button" className="btn zona metro  m-1">
-    ZONA CENTRO 
+    ZONA CENTRO <RiWhatsappFill className='icono-fa'/>
   </button>
 </a>
 
                     <a href="https://wa.me/3313534112" target="_blank">
                       <button type="button" className="btn zona pacifico  m-1">
-                        ZONA PACIFICO 
+                        ZONA PACIFICO  <RiWhatsappFill className='icono-fa'/>
                       </button>
                     </a>
                   </div>

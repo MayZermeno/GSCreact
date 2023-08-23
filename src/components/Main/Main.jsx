@@ -1,4 +1,4 @@
-
+import React from "react";
 import "./Main.css";
 import Nosotros from "../Nosotros/Nosotros";
 import bgmeat from "../assets/bgmeat.png";

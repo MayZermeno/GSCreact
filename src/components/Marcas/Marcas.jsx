@@ -1,3 +1,4 @@
+import React from "react"; 
 import Congelato from "./Congelato.png";
 import SCarlos from "./SCarloslogo.png";
 import "./Marcas.css";

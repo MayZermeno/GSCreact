@@ -15,7 +15,8 @@
     font-size: 12px;
     font-weight: 800;
     color: black;
-    border-color: black;
+    border: 2px solid rgb(47, 174, 12);
+    
 }
 
 .bajio:hover{
@@ -31,4 +32,9 @@
 .pacifico:hover{
  
     background: rgb(167, 235, 71);
+}
+.icono-fa{
+    color: rgb(47, 174, 12);
+    font-size: 15px;
+
 }

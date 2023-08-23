@@ -1,5 +1,6 @@
 import Nepic from "../Nosotros/NepicUs.png";
 import "./Nosotros.css"
+import React from "react";
 
 
 const Nosotros = () =>{

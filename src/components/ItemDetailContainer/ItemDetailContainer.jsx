@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React,{ useEffect, useState } from "react";
 import { pedirItemporId } from "../ItemListContainer/pedirProductos";
 import ItemDetail from "../ItemDetail";
 import { useParams } from "react-router-dom";
