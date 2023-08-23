@@ -53,6 +53,9 @@ const NavBar = () => {
             <li>
   <a href="/#nosotros"> Nosotros</a>
 </li>
+<li>
+  <a href="/#marcas"> Marcas</a>
+</li>
          
             <li>
               <Link to="/productos/Fritos"> Fritos y Empanizados</Link>

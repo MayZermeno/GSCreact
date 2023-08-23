@@ -21,7 +21,7 @@ const Nosotros = () =>{
                     <div className="resaltar"><h4>RES, POLLO, PESCADO, CERDO, FRUTAS</h4>  </div>            
              </div>
             </div>
-            <div class="col-sm-12 col-md-6  d-flex align-items-center">
+            <div className="col-sm-12 col-md-6  d-flex align-items-center">
 
             <img src={Nepic} alt="" className="img-fluid"/>
 </div>

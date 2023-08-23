@@ -12,24 +12,25 @@ const Map = () => {
     <div className="contenedorseccionesmain">
       <div className="servicios text-center" id="servicios">
         <div className="row">
-          <div className="col-sm-12 col-md-7">
+          <div className="col-sm-12 col-md-7 vertical-align">
             <div style={{ width: '100%' }}>
               <div style={{ position: 'relative', paddingBottom: '56.25%', paddingTop: 0, height: 0 }}>
                 <div style={{ width: '100%' }}>
                   <div style={{ position: 'relative', paddingBottom: '56.25%', paddingTop: 0, height: 0 }}>
-                    <iframe
-                      title="mapa mexico"
-                      frameBorder="0"
-                      width="1200"
-                      height="675"
-                      style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-                      src="https://view.genial.ly/644b2c87842d22001b9b38d7"
-                      type="text/html"
-                      allowScriptAccess="always"
-                      allowFullScreen="true"
-                      scrolling="yes"
-                      allowNetworking="all"
-                    ></iframe>
+                  <iframe
+  title="mapa mexico"
+ 
+  width="1200"
+  height="675"
+  style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+  src="https://view.genial.ly/644b2c87842d22001b9b38d7"
+  type="text/html"
+  // allowScriptAccess="always"
+  allowFullScreen={true} // Cambio aquí: usar el valor booleano true
+  
+  // allowNetworking="all"
+></iframe>
+
                   </div>
                 </div>
               </div>
@@ -46,18 +47,18 @@ const Map = () => {
               <div className="row">
                 <div className="col-sm-12">
                   <div className=" d-flex align-items-center justify-content-between">
-                  <a href="https://wa.me/3310109277" target="_blank">
+                  <a href="https://wa.me/3310109277" target="_blank" rel="noopener noreferrer">
                       <button type="button" className="btn zona bajio m-1">
                         ZONA BAJIO <RiWhatsappFill className='icono-fa'/>
                       </button>
                     </a>
-                    <a href="https://wa.me/5536632889" target="_blank">
+                    <a href="https://wa.me/5536632889" target="_blank" rel="noopener noreferrer">
   <button type="button" className="btn zona metro  m-1">
     ZONA CENTRO <RiWhatsappFill className='icono-fa'/>
   </button>
 </a>
 
-                    <a href="https://wa.me/3313534112" target="_blank">
+                    <a href="https://wa.me/3313534112" target="_blank" rel="noopener noreferrer">
                       <button type="button" className="btn zona pacifico  m-1">
                         ZONA PACIFICO  <RiWhatsappFill className='icono-fa'/>
                       </button>

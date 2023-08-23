@@ -1,0 +1,51 @@
+/* Modal Overlay */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    display: none; /* Por defecto, el modal está oculto */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Mostrar el modal cuando la clase "active" está presente */
+  .modal.active {
+    display: flex;
+    color: black;
+  }
+.texto-marca{
+  color: black;
+text-align: justify;
+}
+.marca-imagen{
+  display: flex;
+  justify-content: center;
+  padding: 30px 10px;
+}
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    width: 500px;
+  }
+  
+  /* Cerrar el botón */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+  }
+  

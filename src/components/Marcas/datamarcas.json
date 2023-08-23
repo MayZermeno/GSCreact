@@ -1,0 +1,12 @@
+[{
+    "id":"marca1",
+    "imagen": "src/components/Marcas/SCarloslogo.png",
+    "titulo": "",
+    "descripcion": "Somos una de las principales empresas de distribución de productos cárnicos en México, ofreciendo una amplia gama de cortes frescos y procesados de res, cerdo y aves de corral. Nuestra pasión por la calidad y la seguridad alimentaria nos impulsa a colaborar con proveedores confiables y a operar una red de distribución eficiente, garantizando que nuestros clientes en toda la nación disfruten de carne fresca y deliciosa en sus hogares, restaurantes y establecimientos. Como socios estratégicos en la industria alimentaria, nos enorgullece mantener altos estándares de calidad mientras nos esforzamos por la sostenibilidad y la excelencia en cada paso."
+}, {
+    "id":"marca2",
+    "imagen": "src/components/Marcas/Congelato.png",
+    "titulo": "",
+    "descripcion": "Con más de una década de experiencia en la industria, Congelato es la elección confiable respaldada por las principales empresas de distribución de productos cárnicos en México. Nuestro grupo está dedicado a la comercialización de productos cárnicos de la más alta calidad, llevando a tu mesa una variedad excepcional de cortes frescos y procesados.  Ofrecemos presentaciones que incluyen frescos, congelados y congelados al vacío, asegurando que puedas disfrutar de autenticidad y conveniencia en cada compra. Eleva tus creaciones culinarias con la garantía de Congelato, donde la pasión por el sabor y la excelencia se fusionan en cada bocado."
+
+}]
