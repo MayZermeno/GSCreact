@@ -1,8 +1,8 @@
 import "./ItemListContainer/ItemListContainer.css";
-import ItemCounter from "./Contador/Contador";
+// import ItemCounter from "./Contador/Contador";
 import React, { useContext, useState } from "react";
 import { CartContext } from "../context/CartContext";
-
+//item detail es el componente que renderiza la informacion del producto (item) y permite agregar y quitar producto
 
 
 const ItemDetail = ({ item }) => {
@@ -32,7 +32,7 @@ cantidad > 1 && setCantidad(cantidad -1)
                     {/* <p className="d-flex darktext justify-content-center"> id: {item.id} </p> */}
                     <p className="d-flex darktext">{item.descripcion}</p>
                     <p className="d-flex darktext">  {item.vigencia}</p>
-                    <h4 className="d-flex darktext justify-content-center"> $ {item.precio}</h4>
+                    {/* <h4 className="d-flex darktext justify-content-center"> $ {item.precio}</h4>
                    
                    
                     {
@@ -42,7 +42,7 @@ cantidad > 1 && setCantidad(cantidad -1)
                         decrement={decrement} 
                         mostrarBotonAgregar={true}
                         botonAgregar={()=>{agregarAlCarrito(item,cantidad)}} />
-                    }
+                    } */}
                 </div>
             </div>
         </div>

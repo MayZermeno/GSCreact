@@ -37,8 +37,8 @@ const Map = () => {
             </div>
           </div>
           <div className="col-sm-12 col-md-5">
-            <div className="informacion">
-              <h3>Servicios</h3>
+            <div className="informacion" id='servicios'>
+              <h3>SERVICIOS</h3>
               <br />
               <p>
                 Contáctanos y pregunta por nuestros servicios de transportación y lógistica de acuerdo a la zona donde te

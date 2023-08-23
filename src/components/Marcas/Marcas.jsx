@@ -23,7 +23,7 @@ const Marcas = () => {
   return (
     <div className="marcas" id="marcas">
       <div className="titulo d-flex justify-content-center">
-        <h2 className="brandtitle">Nuestras Marcas</h2>
+        <h2 className="brandtitle">NUESTRAS MARCAS</h2>
       </div>
       <div className="row brand-img">
         <div className="col-sm-12 col-md-6 alineadovertical">

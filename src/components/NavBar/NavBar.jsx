@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./NavBar.css";
 import logo from "../NavBar/assets/Newlogo.png";
 import { Link } from "react-router-dom";
-import CartWidget from "../CartWidget/CartWidget";
+import Search from "./Search";
+// import CartWidget from "../CartWidget/CartWidget";
 
 const NavBar = () => {
   const [isNavbarScrolled, setIsNavbarScrolled] = useState(false);
@@ -58,7 +59,7 @@ const NavBar = () => {
 </li>
          
             <li>
-              <Link to="/productos/Fritos"> Fritos y Empanizados</Link>
+            <a href="/#servicios"> Servicios</a>
             </li>
             <li>
               <Link to="/productos/Pollo"> Pollo</Link>
@@ -73,7 +74,8 @@ const NavBar = () => {
               <Link to="/productos/Pescado"> Pescado</Link>
             </li>
           </ul>
-          <CartWidget />
+          {/* <CartWidget /> */}
+          {<Search/>}
         </div>
       </div>
     </nav>

@@ -1,7 +1,7 @@
 h2{
     padding: 30px;
     color: orange;
-    background-color: rgba(240, 248, 255, 0.523);
+
 }
 
 
@@ -30,7 +30,7 @@ h4{
 }
 .container{
     min-height:87vh;
-    padding-top: 120px;
+    padding: 120px 0px;
 }
 .titulo-productos{
     text-align: center

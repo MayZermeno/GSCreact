@@ -3,7 +3,7 @@ import React,{ useEffect, useState } from "react";
 import ItemList from "../ItemList/ItemList";
 import {pedirProductos} from"./pedirProductos";
 import { useParams } from "react-router-dom";
-
+//este componente es el que haace el fitrado de los productos que vienen del Js y usa el componente con la funcion de pedir productos
 
 
 const ItemListContainer = () => {

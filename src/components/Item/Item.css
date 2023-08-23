@@ -1,0 +1,20 @@
+.card-footer{
+    font-size: 10px;
+}
+.card-product{
+    background-color: rgba(0, 0, 0, 0.453);
+    min-height: 500px;
+    color: white;
+    font-weight: 500;
+   
+}
+.card-product-title{
+    color: rgb(244, 185, 7);
+
+}
+
+.product-description{
+
+    text-align: justify;
+    font-size: 14px;
+}
