@@ -20,7 +20,8 @@
 }
 
 .img-producto{
-    height: 250px !important;
+    height: 200px !important;
     width: auto;
+    object-fit: cover;
     
 }
