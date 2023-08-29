@@ -24,7 +24,7 @@ const Main =({ greeting="Bienvenidos" })=>{
                             <div className="carousel-item active">
                                 <img src={bgmeat} className="d-block mx-auto img-fluid carrusel " alt="..."/>
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Alimentos San Carlos</h5>
+                                    <h5> San Carlos Alimentos </h5>
                                     <p>Productos de la mejor calidad</p>
                                 </div>
                             </div>

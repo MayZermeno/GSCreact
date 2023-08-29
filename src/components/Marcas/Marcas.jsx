@@ -32,6 +32,7 @@ const Marcas = () => {
               src={SCarlosLogo}
               className="img-fluid alico mb-2 w-50"
               alt="Alimentos San Carlos"
+              style={{cursor:'pointer'}}
               onClick={() => handleMarcaClick("marca1")}
             />
           </div>
@@ -42,6 +43,7 @@ const Marcas = () => {
               src={CongelatoLogo}
               className="img-fluid congelato w-75 mb-1"
               alt="Congelato"
+              style={{cursor:'pointer'}}
               onClick={() => handleMarcaClick("marca2")}
             />
           </div>

@@ -1,24 +1,24 @@
 import "./ItemListContainer/ItemListContainer.css";
 // import ItemCounter from "./Contador/Contador";
-import React, { useContext, useState } from "react";
-import { CartContext } from "../context/CartContext";
+import React from "react"; //de aqui se quito el {useContext, useState}
+// import { CartContext } from "../context/CartContext";
 //item detail es el componente que renderiza la informacion del producto (item) y permite agregar y quitar producto
 
 
 const ItemDetail = ({ item }) => {
-    const { agregarAlCarrito} = useContext (CartContext);
+//     const { agregarAlCarrito} = useContext (CartContext);
 
 
- const [cantidad, setCantidad] = useState(1);
+//  const [cantidad, setCantidad] = useState(1);
  
- const increment = () => {
-  cantidad < item.stock && setCantidad(cantidad + 1)
+//  const increment = () => {
+//   cantidad < item.stock && setCantidad(cantidad + 1)
      
      
- }
- const decrement = () => {
-cantidad > 1 && setCantidad(cantidad -1)
-}
+//  }
+//  const decrement = () => {
+// cantidad > 1 && setCantidad(cantidad -1)
+// }
 
 
 

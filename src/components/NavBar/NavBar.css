@@ -32,3 +32,26 @@ z-index: 999;}
     justify-content: center;
     border-radius: 10px;
     z-index: 10; }
+
+.search{
+    padding: 0px;
+}
+
+.search_input {
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgba(151, 151, 150, 0.538);
+    transition: border-color 0.3s ease;
+  }
+  .search_icon {
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgba(255, 166, 0, 0.672);
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Estilo para el campo de búsqueda cuando está enfocado */
+  .search_input:focus {
+    border-color: #FFC107;
+    outline: none;
+  }

@@ -11,7 +11,7 @@ const Item = ({ producto }) => {
 
         <div className="col-12">
             <div className="card card-product">
-                <img className="img-fluid card-img" src={producto.imagen} alt={producto.titulo} />
+                <img className="img-producto object-fit-cover " src={producto.imagen} alt={producto.titulo} />
                 <h3 className="card-product-title p-2">{producto.titulo}</h3>
                 <p className="card-body product-description">{producto.descripcion}</p>
                 <div className="card-footer d-flex darktext">  {producto.vigencia}</div>

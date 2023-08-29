@@ -18,3 +18,9 @@
     text-align: justify;
     font-size: 14px;
 }
+
+.img-producto{
+    height: 250px !important;
+    width: auto;
+    
+}

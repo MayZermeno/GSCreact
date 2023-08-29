@@ -26,7 +26,7 @@ main .carrusel .slide .carousel-caption {
 /* Estilos para el carrusel dentro de los slides */
 main .background .slide .carrusel,
 main .carrusel .slide .carrusel {
-  max-height: 650px;
+
   width: 100%;
 }
 
@@ -42,10 +42,3 @@ main .carrusel .slide .carrusel {
   text-align: center;
 }
 
-/* Media query para pantallas anchas */
-@media (min-width: 1300px) {
-  main .background .slide .carrusel,
-  main .carrusel .slide .carrusel {
-    max-height: 50%; /* Cambiar la altura para pantallas anchas */
-  }
-}
