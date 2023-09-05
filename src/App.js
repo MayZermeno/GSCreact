@@ -8,8 +8,9 @@ import Marcas from './components/Marcas/Marcas';
 import Footer from './components/footer/footer';
 import Main from './components/Main/Main';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
-import Cart from './components/cart';
+import Cart from './components/Cart/cart';
 import {CartProvider} from './context/CartContext';
+import SearchResult from './components/Search/SearchResult';
 
 
 
@@ -29,6 +30,8 @@ function App() {
           <Route path='/marcas' element={<Marcas/>} />
           <Route path='/item/:id' element={<ItemDetailContainer/>} />
           <Route path='/cart' element={<Cart/>} />
+          <Route path="/search-results" element={<SearchResult/>} />
+
         
         </Routes>
 

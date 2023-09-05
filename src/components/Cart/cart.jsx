@@ -1,7 +1,7 @@
 import React,{ useContext } from 'react';
-import './cart.css'
-import { CartContext } from '../context/CartContext';
-import ItemCounter from "./Contador/Contador";
+import '../Cart/cart.css'
+import { CartContext } from '../../context/CartContext';
+import ItemCounter from "../Contador/Contador";
 
 
 

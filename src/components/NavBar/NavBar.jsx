@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./NavBar.css";
 import logo from "../NavBar/assets/Newlogo.png";
-import { Link } from "react-router-dom";
-import Search from "./Search";
+import { Link} from "react-router-dom";
+import Search from "../Search/Search";
+
 // import CartWidget from "../CartWidget/CartWidget";
 
 const NavBar = () => {
@@ -22,6 +23,11 @@ const NavBar = () => {
     } else {
       setIsNavbarScrolled(false);
     }
+  };
+  const handleSearch = (search) => {
+    // Esta es la función que se llamará cuando se realice una búsqueda
+    // Puedes poner aquí la lógica para manejar la búsqueda
+    console.log('Búsqueda realizada:', search);
   };
 
   return (
@@ -76,7 +82,7 @@ const NavBar = () => {
               {/* <CartWidget /> */}
            
             </div>
-            {<Search />}
+            {<Search onSearch={handleSearch} />}
           </div>
     </div>
  

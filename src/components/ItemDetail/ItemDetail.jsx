@@ -1,4 +1,4 @@
-import "./ItemListContainer/ItemListContainer.css";
+import "../ItemListContainer/ItemListContainer.css";
 // import ItemCounter from "./Contador/Contador";
 import React from "react"; //de aqui se quito el {useContext, useState}
 // import { CartContext } from "../context/CartContext";
