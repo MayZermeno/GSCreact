@@ -24,11 +24,7 @@ const NavBar = () => {
       setIsNavbarScrolled(false);
     }
   };
-  const handleSearch = (search) => {
-    // Esta es la función que se llamará cuando se realice una búsqueda
-    // Puedes poner aquí la lógica para manejar la búsqueda
-    console.log('Búsqueda realizada:', search);
-  };
+ 
 
   return (
     <nav
@@ -82,7 +78,8 @@ const NavBar = () => {
               {/* <CartWidget /> */}
            
             </div>
-            {<Search onSearch={handleSearch} />}
+            <Search />
+
           </div>
     </div>
  

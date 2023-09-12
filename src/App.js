@@ -10,18 +10,20 @@ import Main from './components/Main/Main';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import Cart from './components/Cart/cart';
 import {CartProvider} from './context/CartContext';
-import SearchResult from './components/Search/SearchResult';
+import {SearchProvider} from './components/Search/SearchContext';
 
 
 
 function App() {
 
+
     return ( 
      <div className='body'>
+      <SearchProvider>
 <CartProvider>
   <BrowserRouter>
         
-        <NavBar/>
+        <NavBar />
         <Routes>
         <Route path='/' element= { <Main />} />
         <Route path='/productos' element= { <ItemListContainer />} />
@@ -30,7 +32,7 @@ function App() {
           <Route path='/marcas' element={<Marcas/>} />
           <Route path='/item/:id' element={<ItemDetailContainer/>} />
           <Route path='/cart' element={<Cart/>} />
-          <Route path="/search-results" element={<SearchResult/>} />
+          <Route path="/search-results" element={<ItemListContainer/>} />
 
         
         </Routes>
@@ -41,6 +43,7 @@ function App() {
     
         </BrowserRouter>
         </CartProvider>
+        </SearchProvider>
         </div>
     );
 }

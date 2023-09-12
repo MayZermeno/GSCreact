@@ -3,7 +3,6 @@
 }
 .card-product{
     background-color: rgba(0, 0, 0, 0.453);
-    min-height: 500px;
     color: white;
     font-weight: 500;
    
@@ -24,4 +23,9 @@
     width: auto;
     object-fit: cover;
     
+}
+
+.texto-centrado{
+    text-align: center;
+    color: rgb(166, 23, 23);
 }
