@@ -1,0 +1,44 @@
+h2{
+    padding: 30px;
+    color: orange;
+
+}
+
+
+
+h4{
+    color: black;
+}
+
+.darktext{
+    color: rgb(18, 18, 18);
+}
+
+.card{
+    min-height:500px !important;
+}
+
+.card-title{
+    text-align: center;
+   min-height: 110px;/*Altura del título para que no ese desfase con el boton de ver más*/
+}
+.card-img{
+    height: 250px !important;
+}
+.container{
+    min-height:87vh;
+    padding: 120px 0px;
+}
+.titulo-productos{
+    text-align: center
+}
+
+.ver-mas{
+    text-align: center;
+    border: solid 2px;
+    color: orange;
+}
+.ver-mas:hover{
+    background: orange;
+    color: black;
+}
