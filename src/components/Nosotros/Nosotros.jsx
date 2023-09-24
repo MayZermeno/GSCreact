@@ -18,7 +18,7 @@ const Nosotros = () =>{
                     <p className="texto">Contamos con más de 10 años de experiencia en la industria.</p>
                     <p className="texto">Nuestro grupo esta dedicado a la comercializacion de productos carnicos de la más alta calidad.</p>
                    
-                    <div className="resaltar"><h4>RES, POLLO, PESCADO, CERDO, FRUTAS</h4>  </div>            
+                    <h4 className="resaltar">RES, POLLO, PESCADO, CERDO, FRUTAS</h4>             
              </div>
             </div>
             <div className="col-sm-12 col-md-6  d-flex align-items-center">
