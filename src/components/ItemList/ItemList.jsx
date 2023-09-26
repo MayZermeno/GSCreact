@@ -1,5 +1,6 @@
 import React from "react";
 import Item from "../Item/Item";
+import "../Item/Item.css"
 
 const ItemList = ({ productos, titulo }) => {
   return (
@@ -8,7 +9,8 @@ const ItemList = ({ productos, titulo }) => {
       <div className="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
         {productos.length === 0 ? (
           <div className="col-12"> {/* Col de ancho completo */}
-            <h3 className="texto-centrado">No se encontraron resultados</h3>
+          <div className="contenedor-spinner"> <div className="spinner"></div></div>
+           
           </div>
         ) : (
           productos.map((prod) => {

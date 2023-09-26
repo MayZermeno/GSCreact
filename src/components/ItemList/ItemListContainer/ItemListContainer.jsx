@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import ItemList from "../ItemList/ItemList";
+import ItemList from "../ItemList";
 import { pedirProductos } from "./pedirProductos";
 import { useParams } from "react-router-dom";
-import { useSearchContext } from '../Search/SearchContext';
+import { useSearchContext } from '../../Search/SearchContext';
 
 const ItemListContainer = () => {
   const [productos, setProductos] = useState([]);
