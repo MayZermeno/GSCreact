@@ -14,6 +14,18 @@ a{
     font-weight: 500;
  
 }
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+.subtitulo{
+    padding-top: 0;
+    color: rgb(117, 112, 99);
+    
+}
+.text-sm{
+    font-size: 14px;
+}
 
 .text-dark{
     text-align: center;
@@ -29,7 +41,7 @@ a{
     justify-content: center;
 }
 .brandtitle{
-    padding-top: 50px;
+    padding: 50px 10px 0px 10px;
     color: orange;
 
     background: transparent;
@@ -43,3 +55,4 @@ a{
     color: white;
 
 }
+
