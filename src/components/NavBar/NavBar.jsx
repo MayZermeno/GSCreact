@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "./NavBar.css";
-import logo from "../NavBar/assets/Newlogo.png";
-import { Link} from "react-router-dom";
+import logo from "./assets/logoSCp.png";
+import { Link, useLocation} from "react-router-dom";
 import Search from "../Search/Search";
 
 // import CartWidget from "../CartWidget/CartWidget";
 
 const NavBar = () => {
+  const location = useLocation();
   const [isNavbarScrolled, setIsNavbarScrolled] = useState(false);
 
   useEffect(() => {
@@ -49,19 +50,35 @@ const NavBar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarText">
               <ul className="navbar-nav justify-content-end">
-                <li>
-                  <Link to="/"> Inicio</Link>
-                </li>
-                <li>
-                  <a href="/#nosotros"> Nosotros</a>
-                </li>
-                <li>
-                  <a href="/#marcas"> Marcas</a>
-                </li>
-
-                <li>
-                  <a href="/#servicios"> Servicios</a>
-                </li>
+              <li>
+          {location.pathname === '/' ? (
+            <a href="/#inicio">Inicio</a>
+          ) : (
+            <Link to="/">Inicio</Link>
+          )}
+        </li>
+             
+        <li>
+          {location.pathname === '/' ? (
+            <a href="/#marcas">Marcas</a>
+          ) : (
+            <Link to="/#marcas">Marcas</Link>
+          )}
+        </li>
+        <li>
+          {location.pathname === '/' ? (
+            <a href="/#nosotros">Nosotros</a>
+          ) : (
+            <Link to="/#nosotros">Nosotros</Link>
+          )}
+        </li>
+        <li>
+          {location.pathname === '/' ? (
+            <a href="/#map">Servicios</a>
+          ) : (
+            <Link to="/#map">Servicios</Link>
+          )}
+        </li>
                 {/* <li>
                   <Link to="/productos/Pollo"> Pollo</Link>
                 </li>

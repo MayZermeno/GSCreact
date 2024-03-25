@@ -37,7 +37,7 @@ const Map = () => {
             </div>
           </div>
           <div className="col-sm-12 col-md-5">
-            <div className="informacion" id='servicios'>
+            <div className="informacion" id='map'>
               <h3>SERVICIOS</h3>
               <br />
               <p>

@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Search.css";
 import { RiSearchLine } from 'react-icons/ri';
 import { useSearchContext } from '../Search/SearchContext'; // Importa el hook de contexto
 import { searchEventEmitter } from '../Search/SearchEvents'; // Importa el evento personalizado
@@ -26,7 +27,7 @@ const Search = () => {
         <div className="flex-wrap">
           <div id="search-form" className="d-flex mx-0" role="search">
             <input
-              className="form-control search_input"
+              className="form-control search_input-g"
               type="search"
               placeholder="Buscar"
               aria-label="Search"
@@ -37,7 +38,7 @@ const Search = () => {
 
             {/* Puedes tener un botón para activar la búsqueda si lo deseas */}
             <Link to="/productos">
-      <button className="btn btn-outline-warning search_icon" type="submit" id="boton-busqueda" onClick={botonBusquedaIngresada}>
+      <button className="btn btn-buscar-o search_icon" type="submit" id="boton-busqueda" onClick={botonBusquedaIngresada}>
         <RiSearchLine className="icono-search" />
       </button>
     </Link>

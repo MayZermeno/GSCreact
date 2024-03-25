@@ -1,0 +1,16 @@
+.btn-buscar-o{
+    color: #ffc107;
+    border-color: #ffc107;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius:0px ;
+    display: flex;
+    padding: 10px 10px;
+}
+.search_input-g{
+    background-color: transparent;
+    border: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 1px solid rgba(151, 151, 150, 0.538);
+    transition: border-color 0.3s ease;
+}

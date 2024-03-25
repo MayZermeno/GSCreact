@@ -11,7 +11,7 @@ const Main =({ greeting="Bienvenidos" })=>{
   
     return(
         <main>
-                 <div className="carrusel">
+                 <div className="carrusel" id="inicio">
  
 
                     <div id="carouselExampleCaptions" className="carousel slide">
