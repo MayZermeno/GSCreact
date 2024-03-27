@@ -4,7 +4,7 @@ import "../Item/Item.css"
 
 const ItemList = ({ productos, titulo }) => {
   return (
-    <div className="container">
+    <div className="container contenedor-alto" >
       <h2 className="titulo-productos">{titulo}</h2>
       <div className="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
         {productos.length === 0 ? (

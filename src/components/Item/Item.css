@@ -47,3 +47,6 @@
       transform: rotate(360deg);
     }
   }
+  .contenedor-alto{
+    min-height: 92vh !important;
+  }
