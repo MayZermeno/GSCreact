@@ -34,6 +34,7 @@ a{
 .brand-img{
     text-align: center;
     padding: 10px 20px;
+    margin: auto;
 }
 .alineadovertical{
     display: flex;

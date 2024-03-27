@@ -19,7 +19,9 @@ function App() {
 
 
     return ( 
+     
      <div className='body'>
+      <div className='container-app'>
       <SearchProvider>
 <CartProvider>
   <BrowserRouter>
@@ -46,7 +48,7 @@ function App() {
         </BrowserRouter>
         </CartProvider>
         </SearchProvider>
-        </div>
+        </div></div>
     );
 }
 

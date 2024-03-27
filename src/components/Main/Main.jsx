@@ -2,6 +2,7 @@ import React from "react";
 import "./Main.css";
 import Nosotros from "../Nosotros/Nosotros";
 import bgmeat from "../assets/bgmeat.png";
+import meathori from "../assets/meathori.png";
 import bgchicken from "../assets/bgchicken.png";
 import Marcas from "../Marcas/Marcas";
 import Map from "../Map/Map";
@@ -22,7 +23,7 @@ const Main =({ greeting="Bienvenidos" })=>{
                         </div>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img src={bgmeat} className="d-block mx-auto img-fluid carrusel " alt="..."/>
+                                <img src={meathori} className="d-block mx-auto img-fluid carrusel " alt="..."/>
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5> San Carlos Alimentos </h5>
                                     <p>Productos de la mejor calidad</p>

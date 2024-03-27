@@ -2,6 +2,7 @@
 
 .App {
   text-align: center;
+
 }
 .body{
  background-image: url("../src/components/Main/marmol.jpg");
@@ -9,6 +10,14 @@
   background-position: center;
   background-size: cover;
   font-family: 'Dosis', sans-serif;
+
+}
+.container-app{
+  padding: 0px !important;
+  margin: auto;
+}
+ @media (min-width: 2000px) {.container-app
+  {  max-width: 1800px;}
 }
 
 h3{

@@ -1,8 +1,10 @@
 /* Estilos para el main container */
 main {
   min-height: 78vh;
- background-image: url("../Main/marmol.jpg");
-  background-color: #adadad;
+
+
+ /* background-image: url("../Main/marmol.jpg"); */
+  background-color: #f6f6f6;
   background-position: center;
   background-size: cover;
 }

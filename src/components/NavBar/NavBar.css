@@ -1,5 +1,7 @@
 .navbar {
     height: auto;
+    max-width: 2200px;
+    margin: auto;
     transition: background-color 0.3s ease;
     background-image: linear-gradient(to bottom, #1a1a1ce1, #8a8b9006);
 position: fixed;
